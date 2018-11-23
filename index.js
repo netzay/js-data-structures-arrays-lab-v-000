@@ -22,7 +22,7 @@ function appendDriver(name){
 }
 
 function prependDriver(name){
-  const newDriver = [...drivers.slice(0,3),'Broom'];
+  const newDriver = [name, ...drivers];
   return newDriver;
 }
 
